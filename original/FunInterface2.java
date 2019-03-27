@@ -28,11 +28,11 @@ public class FunInterface2 {
       //without parenthesis
       GreetingService greetService1 = message ->
       System.out.println("Hello " + message);
-		
+
       //with parenthesis
       GreetingService greetService2 = (message) ->
       System.out.println("Hello " + message);
-		
+
       greetService1.sayMessage("Mahesh");
       greetService2.sayMessage("Suresh");
    }
@@ -42,7 +42,7 @@ public class FunInterface2 {
 
    @FunctionalInterface
    interface GreetingService { void sayMessage(String message); }
-	
+
    private int operate(int a, int b, MathOperation mathOperation) {
       return mathOperation.operation(a, b);
    }
