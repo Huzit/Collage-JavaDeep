@@ -7,7 +7,7 @@ interface Square<T,R> {
 interface isA<T>{
 	boolean compare(T t);
 }
-class FunInterfaceHw{
+class FunInterfaceHW{
 	public static void main(String args[]){
 		int a=5;
 		char b = 'A';

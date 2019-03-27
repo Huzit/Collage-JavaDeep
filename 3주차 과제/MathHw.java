@@ -1,7 +1,7 @@
 
 import java.util.function.*;
 
-public class MathHw {
+public class MathHW {
     
    public static void main(String args[]) {
 

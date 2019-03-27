@@ -11,7 +11,7 @@ interface Max{
 	boolean isFirst(int x, int y);
 }
 
-class FunInterface{
+class FunInterface2HW{
 	static UnaryOperator<Integer> fac = n -> (n == 0) // static, recursive method
 		? 1 : n * FunInterface.fac.apply(n-1);
 	public static void main(String args[]) {
